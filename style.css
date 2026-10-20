@@ -1,0 +1,1022 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+p {margin: 0; padding: 0; width: fit-content; height: fit-content;}
+body, html, hr {padding: 0; margin: 0; width: 100%;}
+div {width: fit-content; height: fit-content;}
+body {box-sizing: border-box;}
+button {border: none;}
+
+.Main
+{
+    position: relative;
+    background: rgba(253, 253, 255, 1);
+    width: 100%;
+    padding-bottom: 33px;
+    z-index: -1;
+}
+.Hero 
+{
+    background: linear-gradient(225.17deg, #7B11F9 0.3%, #7922D8 39.59%, #3636B2 100%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 930px;
+    gap: 117px;
+    z-index: -1;
+    overflow: hidden;
+}
+.Hero .Layer1
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.Hero .Circle-Small
+{
+    position: absolute;
+    background: rgba(255, 255, 255, 1);
+    width: 1150px;
+    height: 1150px;
+    top: -778px;
+    left: -880px;
+    opacity: 0.0361;
+    border-radius: 50%;
+    z-index: 3;
+}
+.Hero .Circle-Medium
+{
+    position: absolute;
+    background: rgba(255, 255, 255, 1);
+    width: 1645px;
+    height: 1645px;
+    top: -1044.5px;
+    left: -1137px;
+    opacity: 0.0458;
+    border-radius: 50%;
+    z-index: 2;
+}
+.Hero .Circle-Large
+{
+    position: absolute;
+    background: rgba(255, 255, 255, 1);
+    width: 2242px;
+    height: 2242px;
+    top: -1363px;
+    left: -1467px;
+    opacity: 0.0507;
+    border-radius: 50%;
+    z-index: 1;
+}
+.Header
+{
+    position: relative;
+    display: flex;
+    width: calc(100% - 58px);
+    justify-content: space-between;
+    margin-top: 18px;
+    z-index: 3;
+}
+.Header .title
+{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -0.13px;
+}
+.Header .Left
+{
+    display: flex;
+    align-items: center;
+    gap: 53px;
+}
+.Header .DemosPagesSupport
+{
+    display: flex;
+    gap: 30px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    text-align: right;
+}
+.Header .Button
+{
+    background: rgba(247, 77, 77, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 175px;
+    height: 50px;
+    border-radius: 8px;
+}
+.Header .Button p
+{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+.Hero .Content
+{
+    position: relative;
+    display: flex;
+    gap: 25px;
+    z-index: 3;
+}
+.Hero .Content .Layer2
+{
+    position: absolute;
+    width: 122.7024154663086px;
+    height: 111.55680084228516px;
+    top: -38px;
+    right: 18px;
+    z-index: 1;    
+}
+.Hero .Content .Left
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    z-index: 2;
+}
+.Hero .Top
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 540px;
+    height: 345px;
+}
+.Hero .Top .title
+{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 65px;
+    letter-spacing: -2px;
+}
+.Hero .Top .body
+{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    opacity: 0.65;
+}
+.Hero .Top .Button
+{
+    background: rgba(247, 77, 77, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 195px;
+    height: 60px;
+    border-radius: 8px;
+}
+.Hero .Top .Button p
+{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    text-align: center;
+}
+.Hero .Bottom
+{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.Hero .Bottom
+{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.Hero .Bottom .title
+{
+    color: rgba(244, 247, 250, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 1.63px;
+    text-transform: uppercase;
+}
+.Hero .Bottom .Download-Button
+{
+    display: flex;
+    gap: 15px;
+}
+.Hero .downloadapp
+{
+    width: 184px;
+    height: 58px;
+}
+.Hero .Right
+{
+    position: relative;
+    z-index: 2;
+}
+.Hero .Ware
+{
+    position: absolute;
+    z-index: 4;
+    bottom: -1px;
+}
+.Content01, .Content02
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 150px;
+}
+.Content01 .Box
+{
+    display: flex;
+    gap: 142px;
+}
+.Content01 .Right
+{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.Content01 .Top, .Content02 .Top
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.Content01 .Bottom, .Content02 .Bottom
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Content01 .maintitle, .Content02 .maintitle
+{
+    color: rgba(22, 28, 45, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -1.8px;
+}
+.Content01 .subtitle, .Content02 .subtitle
+{
+    color: rgba(22, 28, 45, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+}
+.Content01 .Top .body, .Content02 .Top .body
+{
+    color: rgba(22, 28, 45, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    opacity: 0.7;
+}
+.Content01 .Bottom .body, .Content02 .Bottom .body
+{
+    color: rgba(22, 28, 45, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: -0.2px;
+    opacity: 0.7;
+}
+.Content01 .Left
+{
+    width: 604px;
+    height: 624px;
+}
+.Content02 .Box
+{
+    display: flex;
+    gap: 200px;
+}
+.Content02 .Left
+{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.Content02 .Right
+{
+    width: 504px;
+    height: 626px;
+}
+.How
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 150px;
+    z-index: 1;
+}
+.How .line1
+{
+    position: absolute;
+    top: 250px;
+    left: 422px;
+    z-index: 2;
+}
+.How .line2
+{
+    position: absolute;
+    top: 250px;
+    right: 422px;
+    z-index: 2;
+}
+.How .Box
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+    z-index: 3;
+}
+.How .Title
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.How .Title .title
+{
+    color: rgba(22, 28, 45, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -1.8px;
+    text-align: center;
+}
+.How .Title .body
+{
+    color: rgba(22, 28, 45, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    text-align: center;
+    opacity: 0.7;
+}
+.How .Content
+{
+    display: flex;
+    gap: 125px;
+}
+.How .Tab
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 252px;
+    height: 252px;
+}
+.How .Tab .Number
+{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 74px;
+    height: 74px;
+}
+.How .Tab .Number p
+{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -1.2px;
+    text-align: center;
+}
+.How .Tab .Body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+.How .Tab .title
+{
+    color: rgba(22, 28, 45, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+.How .Tab .body
+{
+    color: rgba(22, 28, 45, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: -0.2px;
+    text-align: center;
+    opacity: 0.7;
+}
+.Video-Features-Testimonial
+{
+    position: relative;
+    background: linear-gradient(225deg, #313C59 0%, #161C2D 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 420px;
+    padding-top: 465px;
+    padding-bottom: 112px;
+    z-index: 1;
+}
+.Video
+{
+    position: absolute;
+    background-image: url('video_Image.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1110px;
+    height: 652px;
+    border-radius: 20px;
+    overflow: hidden;
+    top: -326px;
+    z-index: 4;
+}
+.Video::before
+{
+    content: "";
+    background: rgba(22, 28, 45, 1);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.0655;
+    z-index: 5;
+}
+.Video .Button
+{
+    position: relative;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 22px 64px 0px rgba(22, 28, 45, 0.23);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 114px;
+    height: 114px;
+    border-radius: 50%;
+    z-index: 6;
+}
+.Video .Button .fa-play
+{
+    font-size: 22px;
+}
+.Video-Features-Testimonial .Ware
+{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+.Video-Features-Testimonial .Dots
+{
+    position: absolute;
+    top: 234px;
+    left: 198px;
+    z-index: 3;
+}
+.Features
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+.Features .title
+{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -1.8px;
+    text-align: center;
+}
+.Features .Content
+{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.Features .Content .Top, .Features .Content .Bottom
+{
+    display: flex;
+    gap: 40px;
+}
+.Features .Tab
+{
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+}
+.Features .TextBox
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.Features .TextBox .title
+{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+}
+.Features .TextBox .body
+{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: -0.2px;
+    opacity: 0.65;
+}
+.Features .line
+{
+    border: 3px solid rgba(255, 255, 255, 1);
+    width: 160px;
+    height: 0;
+    opacity: 0.1009;
+}
+.Features .icon
+{
+    margin-top: 6px;
+}
+.Testimonial
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+    margin-top: 100px;
+    z-index: 2;
+}
+.Testimonial .Title
+{
+    position: relative;
+    z-index: 3;
+}
+.Testimonial .Title .line
+{
+    position: absolute;
+    border: 4px solid rgba(104, 213, 133, 1);
+    width: 274px;
+    top: 27px;
+    left: -16px;
+    z-index: 4;
+}
+.Testimonial .Title .title
+{
+    position: relative;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -1.2px;
+    text-align: center;
+    z-index: 5;
+}
+.Testimonial .Content
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Testimonial .TextBox
+{
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 730px;
+    height: 200px;
+    border-radius: 12px;
+}
+.Testimonial .TextBox .avatar
+{
+    width: 111px;
+    height: 111px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.Testimonial .Text
+{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.Testimonial .Text .body
+{
+    color: rgba(22, 28, 45, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    width: 520px;
+}
+.Testimonial .Text .name
+{
+    color: rgba(22, 28, 45, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: -0.2px;
+    opacity: 0.7;
+}
+.Testimonial .Button
+{
+    background: none;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.Testimonial .Button p
+{
+    color: rgba(104, 213, 133, 1);
+    font-family: 'Gilroy',sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+}
+.Testimonial .Button .fa-arrow-right
+{
+    width: 10px;
+    height: 8px;
+}
+.Pricing
+{
+    position: relative;
+    background: rgba(244, 247, 250, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 1100px;
+    gap: 75px;
+    z-index: 1;
+}
+.Pricing .Ware
+{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 3;
+}
+.Pricing .Fill
+{
+    position: absolute;
+    bottom: 25px;
+    right: 0;
+    z-index: 2;
+}
+.Pricing .Title
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.Pricing .Title .title
+{
+    color: rgba(22, 28, 45, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -1.8px;
+    text-align: center;
+}
+.Pricing .Title .body
+{
+    color: rgba(22, 28, 45, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    text-align: center;
+    opacity: 0.7;
+}
+.Pricing .Membership
+{
+    display: flex;
+    gap: 30px;
+}
+.Pricing .tab1,.Pricing .tab2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    height: 558px;
+    border-radius: 10px;
+}
+.Pricing .tab1
+{
+    border: 1px solid rgba(231, 233, 237, 1);
+}
+.Pricing .tab2
+{
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 32px 64px 0px rgba(22, 28, 45, 0.08);
+}
+.Pricing .name
+{
+    color: rgba(246, 75, 75, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 1.63px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.Pricing .Price-Month
+{
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+}
+.Pricing .price
+{
+    color: rgba(22, 28, 45, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 65px;
+    letter-spacing: -2px;
+}
+.Pricing .price span
+{
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 65px;
+    letter-spacing: -0.8px;
+}
+.Pricing .month
+{
+    color: rgba(22, 28, 45, 1);
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: -0.09px;
+    margin-bottom: 15px;
+}
+.Pricing .Interest
+{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.Pricing .Box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.Pricing .Box .line
+{
+    border: 1px solid rgba(231, 233, 237, 1);
+    width: 306px;
+    height: 0;
+}
+.Pricing .Box .text
+{
+    color: rgba(22, 28, 45, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    text-align: center;
+}
+.Pricing .tab1 .Button
+{
+    background: rgba(22, 28, 45, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 60px;
+    border-radius: 8px;
+}
+.Pricing .tab2 .Button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(247, 77, 77, 1);
+    width: 285px;
+    height: 60px;
+    border-radius: 8px;
+}
+.Pricing .Button p
+{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    text-align: center;
+}
+.Footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 90px;
+    margin-top: 90px;
+}
+.Footer .Rights-Download
+{
+    display: flex;
+    gap: 200px;
+}
+.Footer .Rights
+{
+    display: flex;
+    gap: 50px;
+}
+.Footer .Box
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Footer .Box .title
+{
+    color: rgba(22, 28, 45, 1);
+    font-family: Gilroy;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    opacity: 0.7;
+}
+.Footer .Box .Body
+{
+    display: flex;
+    flex-direction: column;
+}
+.Footer .Box .Body .text
+{
+    color: rgba(22, 28, 45, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 40px;
+    letter-spacing: -0.2px;
+}
+.Footer .Download
+{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.Footer .Download .title
+{
+    color: rgba(22, 28, 45, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    opacity: 0.7;
+}
+.Footer .Download .Button
+{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.Footer .Download .download_button
+{
+    width: 190px;
+    height: 60px;
+    object-fit: cover;
+}
+.Footer .Copyright-Media
+{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    gap: 30px;
+}
+.Footer .Copyright-Media .line
+{
+    border: 1px solid rgba(231, 233, 237, 1);
+    width: 100%;
+}
+.Footer .Copyright-Media .Bottom
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.Footer .Copyright
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Footer .Copyright p
+{
+    color: rgba(22, 28, 45, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+}
+.Footer .fa-heart
+{
+    font-size: 14px;
+}
+.Footer .Media
+{
+    display: flex;
+    gap: 30px;
+}
+.Footer .fa-twitter
+{
+    font-size: 16px;
+}
+.Footer .fa-facebook
+{
+    font-size: 19px;
+}
+.Footer .fa-instagram
+{
+    font-size: 18px;
+}
+.Footer .fa-linkedin
+{
+    font-size: 18px;
+}
